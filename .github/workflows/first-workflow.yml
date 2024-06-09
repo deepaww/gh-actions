@@ -1,7 +1,7 @@
 name: First GH Actions Workflow
 on: workflow_dispatch
 jobs:
-  job1: jobone
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
