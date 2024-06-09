@@ -1,0 +1,11 @@
+name: First GH Actions Workflow
+on: workflow_dispatch
+jobs:
+  job1: jobone
+    run-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello"
+      - name: Print exit message
+        run" echo "done"
+        
